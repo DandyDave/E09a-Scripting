@@ -12,11 +12,11 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 53.311, 12.2888 )
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="DynamicFont" id=2]
 size = 32
 font_data = ExtResource( 6 )
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="DynamicFont" id=3]
 size = 32
 font_data = ExtResource( 6 )
 
@@ -281,7 +281,7 @@ margin_left = 35.0
 margin_top = 36.0
 margin_right = 110.0
 margin_bottom = 58.0
-custom_fonts/font = SubResource( 4 )
+custom_fonts/font = SubResource( 2 )
 text = "Score: "
 script = ExtResource( 7 )
 
@@ -290,6 +290,6 @@ margin_left = 910.0
 margin_top = 35.0
 margin_right = 969.0
 margin_bottom = 57.0
-custom_fonts/font = SubResource( 5 )
+custom_fonts/font = SubResource( 3 )
 text = "Lives:"
 script = ExtResource( 8 )
